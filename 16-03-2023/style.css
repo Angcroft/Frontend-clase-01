@@ -1,0 +1,41 @@
+html, body {
+  background-color: beige;
+  font-family: font-family: 'Poppins', sans-serif;;
+  margin: 0;
+  padding: 10px;
+
+}
+canvas {
+  display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    padding: 1rem;
+}
+
+#mio {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(107, 96, 228);
+  color: rgb(255,255,255);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 6px black;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 15px
+}
+
+a#mio:hover {
+    background: pink;
+    color: black;
+    transition: all ease 1s;
+}
